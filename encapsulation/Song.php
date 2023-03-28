@@ -2,9 +2,9 @@
 
     class Song {
 
-        public $name;
-        public $singer;
-        public $numberOfPlays;
+        public string $name;
+        public string $singer;
+        public int $numberOfPlays;
 
         public function __construct(string $name, string $singer, int $numberOfPlays) {
             $this->name = $name;
